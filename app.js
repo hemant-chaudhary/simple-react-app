@@ -1,6 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement(
   "h1",
-  { id: "heading", class: "head", style: {color: "blue",  fontSize: "18"  } },
+  { id: "heading", className: "head", style: {color: "blue",  fontSize: 18   } },
   "Hello World from React!"
 );
 
